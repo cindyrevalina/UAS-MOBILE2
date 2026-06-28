@@ -104,6 +104,8 @@ AI Assistant membantu pengguna memahami hasil BMI melalui percakapan interaktif,
 ## Project Management
 
 - ClickUp
+<img width="1363" height="721" alt="image" src="https://github.com/user-attachments/assets/1c9a781a-22e4-43e2-8fd8-b6bc15a0d3ec" />
+
 
 ---
 
