@@ -86,6 +86,7 @@ AI Assistant membantu pengguna memahami hasil BMI melalui percakapan interaktif,
 - Wireframe
 - Storyboard
 - Prototype
+<img width="774" height="377" alt="image" src="https://github.com/user-attachments/assets/1d77d1d7-c6e4-4d48-80dc-e1492a12ce3f" />
 
 ## Project Management
 
