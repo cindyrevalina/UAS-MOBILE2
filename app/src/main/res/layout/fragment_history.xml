@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <!-- Tombol Hapus Semua Riwayat (Pojok Kanan Atas) -->
+    <Button
+        android:id="@+id/btnClearHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="12dp"
+        android:text="Hapus Semua"
+        android:textSize="12sp"
+        android:backgroundTint="#EF4444"
+        android:textColor="#FFFFFF" />
+
+    <!-- Teks jika riwayat kosong -->
+    <TextView
+        android:id="@+id/tvEmptyHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Belum ada riwayat perhitungan."
+        android:textSize="16sp"
+        android:textColor="#888888"
+        android:visibility="gone" />
+
+    <!-- Daftar List Riwayat (Posisinya sekarang berada di bawah tombol hapus) -->
+    <ListView
+        android:id="@+id/listViewHistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnClearHistory"
+        android:divider="#E5E7EB"
+        android:dividerHeight="1dp"
+        android:paddingTop="8dp"
+        android:clipToPadding="false" />
+
+</RelativeLayout>

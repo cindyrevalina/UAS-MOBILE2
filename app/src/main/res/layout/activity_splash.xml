@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F172A"> <!-- Latar belakang dasar gelap -->
+
+    <!-- 1. LOGO DI TENGAH -->
+    <ImageView
+        android:id="@+id/logo_splash"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo_bluefit" />
+
+    <!-- 2. GERBANG KIRI -->
+    <ImageView
+        android:id="@+id/gerbang_kiri"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash_screen2"
+        android:scrollX="200dp" />
+
+    <!-- 3. GERBANG KANAN -->
+    <ImageView
+        android:id="@+id/gerbang_kanan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash_screen2"
+        android:scrollX="-200dp" />
+
+</RelativeLayout>

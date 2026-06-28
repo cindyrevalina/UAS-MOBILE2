@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_top_corner"
+        android:scaleType="fitStart"
+        android:contentDescription="Top Corner Accent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BlueFit BMI Calculator"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="#1E3A8A"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="32dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tinggi Badan (cm)"
+                android:textColor="#4B5563"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etTinggi"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:inputType="numberDecimal"
+                android:hint="Masukkan tinggi badan (misal: 165)"
+                android:padding="12dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Berat Badan (kg)"
+                android:textColor="#4B5563"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etBerat"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="32dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:inputType="numberDecimal"
+                android:hint="Masukkan berat badan (misal: 55)"
+                android:padding="12dp"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnHitung"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="Hitung Hasil Anda"
+                android:backgroundTint="#3B82F6"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="32dp" />
+
+            <LinearLayout
+                android:id="@+id/layoutHasil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:visibility="invisible"
+                android:padding="20dp"
+                android:background="@android:drawable/toast_frame">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SKOR BMI ANDA"
+                    android:textSize="14sp"
+                    android:textColor="#4B5563"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvSkorBMI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="21.3"
+                    android:textSize="44sp"
+                    android:textStyle="bold"
+                    android:textColor="#10B981"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/tvStatusBMI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Normal (Ideal)"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#10B981"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
