@@ -32,6 +32,19 @@ Storyboard digunakan untuk menggambarkan alur penggunaan aplikasi mulai dari spl
 
 ---
 
+## 🖊️ Wireframe
+
+Wireframe merupakan rancangan awal antarmuka aplikasi yang digunakan sebagai acuan dalam proses desain sebelum dibuat menjadi prototype. Pada tahap ini ditentukan struktur halaman, penempatan tombol, form input, navigasi, dan alur interaksi pengguna tanpa memperhatikan detail warna maupun elemen visual.
+
+Melalui wireframe, proses pengembangan aplikasi menjadi lebih terarah karena setiap halaman telah dirancang sesuai kebutuhan pengguna.
+
+> **Fungsi Wireframe:**
+> - Menentukan tata letak (layout) setiap halaman.
+> - Mempermudah perancangan navigasi aplikasi.
+> - Menjadi acuan dalam pembuatan desain UI.
+> - Mengurangi kesalahan pada tahap implementasi.
+
+
 ## ⚖️ BMI Calculator
 
 Fitur utama aplikasi yang digunakan untuk menghitung nilai Body Mass Index berdasarkan:
