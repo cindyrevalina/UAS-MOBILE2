@@ -76,6 +76,7 @@ Aplikasi menampilkan **toast notification** sebagai konfirmasi ketika pengguna b
 
 <img width="360" height="90" alt="image" src="https://github.com/user-attachments/assets/0aee318e-e77c-4f0d-88d6-11295d80215b" />
 
+
 ## 🤖 AI Assistant
 
 AI Assistant membantu pengguna memahami hasil BMI melalui percakapan interaktif, seperti:
@@ -84,6 +85,8 @@ AI Assistant membantu pengguna memahami hasil BMI melalui percakapan interaktif,
 - Tips menjaga berat badan ideal
 - Rekomendasi pola hidup sehat
 - Tanya jawab seputar kesehatan
+
+<img width="266" height="582" alt="image" src="https://github.com/user-attachments/assets/1294b4ad-e3a7-4d44-8380-96c119115881" />
 
 ---
 
