@@ -15,6 +15,8 @@ Aplikasi BMI Calculator adalah platform kesehatan mobile yang dirancang untuk me
 
 ## 🚀 Fitur Utama
 * **Splash Screen Interaktif**: Memberikan pengalaman pembukaan aplikasi yang estetik dengan transisi logo.
+* <img width="393" height="852" alt="image" src="https://github.com/user-attachments/assets/df66313a-6c30-44e9-ac28-ba6c686b38cd" />
+
 * **Kalkulator BMI**: Perhitungan BMI yang akurat berdasarkan input tinggi dan berat badan pengguna.
 * **Riwayat Kesehatan**: Fitur penyimpanan hasil perhitungan untuk memantau perkembangan berat badan dari waktu ke waktu.
 * **AI Assistant**: Konsultasi cerdas mengenai informasi BMI dan tips kesehatan secara *real-time*.
