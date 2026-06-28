@@ -65,6 +65,7 @@ Setelah proses perhitungan selesai, aplikasi akan menampilkan:
 ## 📚 History BMI
 
 Menyimpan hasil perhitungan BMI sehingga pengguna dapat melihat perkembangan kondisi tubuh dari waktu ke waktu.
+<img width="264" height="589" alt="image" src="https://github.com/user-attachments/assets/abe7a6aa-d2e8-447d-b3ca-30ab9c8dae6d" />
 
 ---
 
