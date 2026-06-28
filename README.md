@@ -68,6 +68,14 @@ Menyimpan hasil perhitungan BMI sehingga pengguna dapat melihat perkembangan kon
 
 ---
 
+## 🔔 Toast Notification
+
+Aplikasi menampilkan **toast notification** sebagai konfirmasi ketika pengguna berhasil menyimpan hasil perhitungan BMI. Notifikasi ini muncul sementara di bagian bawah layar dengan pesan **"Hasil disimpan ke riwayat"**, kemudian menghilang secara otomatis. Fitur ini memberikan umpan balik kepada pengguna bahwa data telah berhasil disimpan tanpa mengganggu penggunaan aplikasi.
+
+<img width="357" height="95" alt="image" src="https://github.com/user-attachments/assets/2b89aa32-de65-4253-9156-27320f3c10ee" />
+
+<img width="360" height="90" alt="image" src="https://github.com/user-attachments/assets/0aee318e-e77c-4f0d-88d6-11295d80215b" />
+
 ## 🤖 AI Assistant
 
 AI Assistant membantu pengguna memahami hasil BMI melalui percakapan interaktif, seperti:
