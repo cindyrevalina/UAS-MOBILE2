@@ -164,18 +164,6 @@ Tambahkan file GIF hasil prototype pada folder project.
 
 ---
 
-# 📷 Tampilan Aplikasi
-
-Tambahkan screenshot setiap halaman aplikasi, misalnya:
-
-- Splash Screen
-- Home
-- BMI Calculator
-- Hasil BMI
-- History
-- AI Assistant
-- Profile
-
 ---
 
 # 📊 Kesimpulan
