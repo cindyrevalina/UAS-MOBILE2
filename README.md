@@ -58,6 +58,7 @@ Setelah proses perhitungan selesai, aplikasi akan menampilkan:
 - Nilai BMI
 - Kategori BMI
 - Status kesehatan pengguna
+<img width="255" height="578" alt="image" src="https://github.com/user-attachments/assets/e9bbd9c5-cae8-4732-905a-a12ea17d945d" />
 
 ---
 
