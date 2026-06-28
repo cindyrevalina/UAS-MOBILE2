@@ -43,6 +43,7 @@ Melalui wireframe, proses pengembangan aplikasi menjadi lebih terarah karena set
 > - Mempermudah perancangan navigasi aplikasi.
 > - Menjadi acuan dalam pembuatan desain UI.
 > - Mengurangi kesalahan pada tahap implementasi.
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ff851b25-75f6-4589-a1f7-bc2b5d1f0c39" />
 
 
 ## ⚖️ BMI Calculator
